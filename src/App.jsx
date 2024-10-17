@@ -40,7 +40,7 @@ function App() {
               <h1>My Name is <span></span></h1>
               <h1>Mia<span></span></h1>
               <a href="#projects" type="button" className="cta">Portfolio</a>
-            </div>
+            </div>f
           </div>
         </section>
         {/* End Hero Section  */}
@@ -100,7 +100,7 @@ function App() {
                     harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
                 </div>
                 <div className="project-img">
-                  <img src="./img/img-1.png" alt="img"/>
+                  <img src="src\img\img-1.png" alt="img"/>
                 </div>
               </div>
               <div className="project-item">
@@ -112,7 +112,7 @@ function App() {
                     harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
                 </div>
                 <div className="project-img">
-                  <img src="./img/img-1.png" alt="img"/>
+                  <img src="src\img\img-1.png" alt="img"/>
                 </div>
               </div>
               <div className="project-item">
@@ -124,7 +124,7 @@ function App() {
                     harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
                 </div>
                 <div className="project-img">
-                  <img src="./img/img-1.png" alt="img"/>
+                  <img src="src\img\img-1.png" alt="img"/>
                 </div>
               </div>
               <div className="project-item">
@@ -136,7 +136,7 @@ function App() {
                     harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
                 </div>
                 <div className="project-img">
-                  <img src="./img/img-1.png" alt="img"/>
+                  <img src="src\img\img-1.png" alt="img"/>
                 </div>
               </div>
               <div className="project-item">
