@@ -1,4 +1,5 @@
-
+import img1 from './assets/img-1.png'
+import img2 from './assets/img-2.jpg'
 import './App.css'
 
 function App() {
@@ -100,7 +101,7 @@ function App() {
                     harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
                 </div>
                 <div className="project-img">
-                  <img src="src\img\img-1.png" alt="img"/>
+                  <img src={img1} alt="img"/>
                 </div>
               </div>
               <div className="project-item">
@@ -112,7 +113,7 @@ function App() {
                     harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
                 </div>
                 <div className="project-img">
-                  <img src="src\img\img-1.png" alt="img"/>
+                  <img src={img1} alt="img"/>
                 </div>
               </div>
               <div className="project-item">
@@ -124,7 +125,7 @@ function App() {
                     harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
                 </div>
                 <div className="project-img">
-                  <img src="src\img\img-1.png" alt="img"/>
+                  <img src={img1} alt="img"/>
                 </div>
               </div>
               <div className="project-item">
@@ -136,7 +137,7 @@ function App() {
                     harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
                 </div>
                 <div className="project-img">
-                  <img src="src\img\img-1.png" alt="img"/>
+                  <img src={img1} alt="img"/>
                 </div>
               </div>
               <div className="project-item">
@@ -148,7 +149,7 @@ function App() {
                     harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
                 </div>
                 <div className="project-img">
-                  <img src="src\img\img-1.png" alt="img"/>
+                  <img src= {img1} alt="img"/>
                 </div>
               </div>
             </div>
@@ -159,20 +160,16 @@ function App() {
         {/* About Section */}
         <section id="about">
           <div className="about container">
-            <div className="col-left">
+            <div className="col-left">ss
               <div className="about-img">
-                <img src="src\img\img-2.jpg" alt="img"/>
+                <img src={img2} alt="img"/>
               </div>
             </div>
             <div className="col-right">
               <h1 className="section-title">About <span>me</span></h1>
               <h2>Front End Developer</h2>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque
-                repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt
-                exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni!
-                Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt
-                reprehenderit libero enim!</p>
-              <a href="" className="cta">Download Resume</a>
+              <p>I'm a passionate front-end developer with a knack for creating engaging and user-friendly web experiences. With a strong foundation in HTML, CSS, and JavaScript, I thrive on turning design concepts into functional and aesthetically pleasing websites. I enjoy staying updated on the latest trends and technologies in the industry, ensuring my projects are not only visually appealing but also optimized for performance and accessibility. Whether collaborating with designers or working independently, I love the challenge of solving problems and enhancing user experience</p>
+              <a href="./assets/resume.pdf" download = "ma.hermosa_cv.pdf"className="cta">Download CV</a>
             </div>
           </div>
         </section>
@@ -189,23 +186,23 @@ function App() {
                 <div className="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
                 <div className="contact-info">
                   <h1>Phone</h1>
-                  <h2>+92 300 835 5143</h2>
-                  <h2>+1 234 123 1234</h2>
+                  <h2>0922suk</h2>
+                  
                 </div>
               </div>
               <div className="contact-item">
                 <div className="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
                 <div className="contact-info">
                   <h1>Email</h1>
-                  <h2>wajahat.webcog@gmail.com</h2>
-                  <h2>abcd@gmail.com</h2>
+                  <h2>mahermosamaganda@gmail.com</h2>
+                  <h2>mahermosamalapit@student.laverdad.edu.ph</h2>
                 </div>
               </div>
               <div className="contact-item">
                 <div className="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
                 <div className="contact-info">
                   <h1>Address</h1>
-                  <h2>Fatikchhari, Chittagong, Bangladesh</h2>
+                  <h2>San Jose Del Monte Bulacan</h2>
                 </div>
               </div>
             </div>
