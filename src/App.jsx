@@ -148,7 +148,7 @@ function App() {
                     harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
                 </div>
                 <div className="project-img">
-                  <img src="./img/img-1.png" alt="img"/>
+                  <img src="src\img\img-1.png" alt="img"/>
                 </div>
               </div>
             </div>
@@ -161,7 +161,7 @@ function App() {
           <div className="about container">
             <div className="col-left">
               <div className="about-img">
-                <img src="./img/img-2.jpg" alt="img"/>
+                <img src="src\img\img-2.jpg" alt="img"/>
               </div>
             </div>
             <div className="col-right">
